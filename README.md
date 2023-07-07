@@ -13,14 +13,11 @@ The demos cover the following topics:
 
 See the `fastplotlib` repo for [installation](https://github.com/kushalkolar/fastplotlib#:~:text=on%20gitter.-,Installation,-Install%20using%20pip). 
 
-In order to run the notebooks you will also need to have `imageio` and `tifffile` installed. These are not dependencies of `fastplotlib`, but are being used in these demos.
+In order to run the notebooks you will also need to have `imageio` and `zarr` installed. These are not dependencies of `fastplotlib`, but are being used in these demos.
 
 ### Install using pip
 ```
-pip install tiffile
-```
-```
-pip install imageio
+pip install tiffile imageio zarr
 ```
 
 # General `fastplotlib` API
