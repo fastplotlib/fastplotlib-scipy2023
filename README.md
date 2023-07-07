@@ -1,6 +1,8 @@
 # fastplotlib SciPy 2023
 
-Materials for the `fastplotlib` talk at SciPy 2023. This repo includes installation instructions and the demo notebooks covered in our talk. 
+Materials for the [`fastplotlib`](https://github.com/kushalkolar/fastplotlib/) talk at SciPy 2023. This repo includes installation instructions and the demo notebooks covered in our talk. 
+
+For more info on `fastplotlib` see the repo: https://github.com/kushalkolar/fastplotlib/
 
 The demos cover the following topics:
 1. `Images` - plotting simple images, feature changes, image updates, `ImageWidget`
@@ -11,13 +13,13 @@ The demos cover the following topics:
 
 # Installation instructions
 
-See the `fastplotlib` repo for [installation](https://github.com/kushalkolar/fastplotlib#:~:text=on%20gitter.-,Installation,-Install%20using%20pip). 
+See the `fastplotlib` repo for [installation](https://github.com/kushalkolar/fastplotlib#installation). 
 
 In order to run the notebooks you will also need to have `imageio` and `zarr` installed. These are not dependencies of `fastplotlib`, but are being used in these demos.
 
 ### Install using pip
 ```
-pip install tiffile imageio zarr
+pip install imageio zarr
 ```
 
 # General `fastplotlib` API
@@ -33,9 +35,9 @@ pip install tiffile imageio zarr
 - Sliders, support window functions, `GridPlot`, etc.
 
 # Docs
-For a more in-depth look at our API, please visit our [docs](https://fastplotlib.readthedocs.io/en/latest/?badge=latest).
+For a more in-depth look at our API, please visit our [docs](https://fastplotlib.readthedocs.io/en/).
 
 # Contributions
-`fastplotlib` is a relatively new software, and we are always looking for feedback or help! Please see the [contributing guide](https://github.com/kushalkolar/fastplotlib/blob/master/CONTRIBUTING.md). 
+`fastplotlib` is a relatively new library, and we are always looking for feedback or help! Please see the [contributing guide](https://github.com/kushalkolar/fastplotlib/blob/master/CONTRIBUTING.md). 
 
 You can also look at our [Roadmap for 2023](https://github.com/kushalkolar/fastplotlib/issues/55) and [Issues](https://github.com/kushalkolar/fastplotlib/issues) for more ideas on how to contribute.
