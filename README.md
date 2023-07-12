@@ -20,7 +20,11 @@ In order to run the notebooks you will also need to have `imageio` and `zarr` in
 ### Install using pip
 ```
 # other packages specifically used for this demo
-pip install "jupyterlab<4" imageio zarr sidecar
+# jupyterlab v3 because of sidecar, and pin pylingalg because of pygfx
+pip install "jupyterlab<4" imageio "imageio[pyav]" zarr sidecar pylinalg==0.4.0 scikit-image glfw
+
+# optional, you'll need C compilers
+pip install simplejpeg
 
 # fastplotlib with notebook dependencies
 pip install "fastplotlib[notebook]"
