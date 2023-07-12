@@ -16,7 +16,7 @@ data_file = Path(
 def download_data():
 
     # if data already exists, return
-    if os.path.exists(data_dir) & len(list(data_dir.iterdir())) != 0:
+    if os.path.exists(data_dir) and len(list(data_dir.iterdir())) != 0:
         print("data already exists")
         return
 
