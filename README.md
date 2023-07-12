@@ -20,7 +20,7 @@ In order to run the notebooks you will also need to have `imageio` and `zarr` in
 ### Install using pip
 ```
 # other packages specifically used for this demo
-pip install "jupyterlab<4" imageio zarr
+pip install "jupyterlab<4" imageio zarr sidecar
 
 # fastplotlib with notebook dependencies
 pip install "fastplotlib[notebook]"
